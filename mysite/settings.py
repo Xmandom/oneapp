@@ -90,10 +90,10 @@ DATABASES = {
         # 默认db，主要记录主要和公用信息
          'default': {
             'ENGINE': 'django.db.backends.mysql',   # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-            'NAME': 'open_paas',                    # Or path to database file if using sqlite3.
+            'NAME': 'oneapp',                    # Or path to database file if using sqlite3.
             'USER': 'root',                    #
-            'PASSWORD': 'bk@321',               # KCFyzy68om
-            'HOST': '10.105.6.108',                 # 10.6.224.220
+            'PASSWORD': '',               # KCFyzy68om
+            'HOST': '',                 # 10.6.224.220
             'PORT': '3306',                         # Set to empty string for default. Not used with sqlite3.
             #'OPTIONS':{
             #    'init_command':'SET storage_engine=INNODB',
