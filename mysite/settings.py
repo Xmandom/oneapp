@@ -18,8 +18,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # 蓝鲸注册信息
-APP_ID = ' your app id' # 请在 蓝鲸开发者中心 -》点击应用ID -》基本信息 -》注册信息 中获取你的APP_ID 
-APP_TOKEN = ' your app token' # 请在 蓝鲸开发者中心 -》点击应用ID -》基本信息 -》注册信息 中获取你的APP_TOKEN
+APP_ID = '915bbf0b-7e9b-4bb2-a40c-983c26dba715' # 请在 蓝鲸开发者中心 -》点击应用ID -》基本信息 -》注册信息 中获取你的APP_ID 
+APP_TOKEN = '29058418-5514-4c43-9127-ec5eeb7ed758' # 请在 蓝鲸开发者中心 -》点击应用ID -》基本信息 -》注册信息 中获取你的APP_TOKEN
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -90,11 +90,11 @@ DATABASES = {
         # 默认db，主要记录主要和公用信息
          'default': {
             'ENGINE': 'django.db.backends.mysql',   # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-            'NAME': '',                    # Or path to database file if using sqlite3.
-            'USER': '',                    #
-            'PASSWORD': '',               # KCFyzy68om
-            'HOST': '',                 # 10.6.224.220
-            'PORT': '',                         # Set to empty string for default. Not used with sqlite3.
+            'NAME': 'open_paas',                    # Or path to database file if using sqlite3.
+            'USER': 'root',                    #
+            'PASSWORD': 'bk@321',               # KCFyzy68om
+            'HOST': '10.105.6.108',                 # 10.6.224.220
+            'PORT': '3306',                         # Set to empty string for default. Not used with sqlite3.
             #'OPTIONS':{
             #    'init_command':'SET storage_engine=INNODB',
             #},
